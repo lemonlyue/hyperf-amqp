@@ -1,5 +1,5 @@
 {
-    "name": "hyperf-amqp",
+    "name": "lemonlyue/hyperf-amqp",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -19,6 +19,7 @@
     },
     "require": {
         "php": ">=7.3",
+        "hyperf/amqp": "^2.1",
         "hyperf/di": "2.1.*"
     },
     "require-dev": {
