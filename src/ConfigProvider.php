@@ -27,6 +27,14 @@ class ConfigProvider
                     ],
                 ],
             ],
+            'publish' => [
+                [
+                    'id' => 'amqp',
+                    'description' => 'The config for hyperf amqp',
+                    'source' => __DIR__ . '/../publish/amqp.php',
+                    'destination' => BASE_PATH . '/config/autoload/amqp.php',
+                ]
+            ]
         ];
     }
 }

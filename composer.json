@@ -20,6 +20,8 @@
     "require": {
         "php": ">=7.3",
         "hyperf/amqp": "^2.1",
+        "hyperf/command": "^2.1",
+        "hyperf/devtool": "^2.1",
         "hyperf/di": "2.1.*"
     },
     "require-dev": {
