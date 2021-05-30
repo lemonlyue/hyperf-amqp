@@ -1,2 +1,5 @@
-# hyperf-amqp
-Hyperf AMQP
+# Hyperf AMQP
+
+```
+composer create-project lemonlyue/hyperf-amqp
+```
