@@ -10,6 +10,11 @@ declare(strict_types=1);
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
 return [
+    'retry' => [
+        'retry_count' => (int)env('AMQP_RETRY_COUNT', 3),
+        'retry_time_interval' => (int)env('AMQP_RETRY_TIME_INTERVAL', 1),
+        'task_table' => env('AMQP_TASK_TABLE', 'task'),
+    ],
     'default' => [
         'host' => env('AMQP_HOST', 'localhost'),
         'port' => (int)env('AMQP_PORT', 5672),
