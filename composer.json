@@ -26,6 +26,7 @@
         "hyperf/config": "^2.1",
         "hyperf/devtool": "^2.1",
         "hyperf/di": "2.1.*",
+        "hyperf/redis": "^2.1",
         "hyperf/utils": "^2.1"
     },
     "require-dev": {
