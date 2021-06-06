@@ -12,7 +12,7 @@ class CreateTaskTable extends Migration
      */
     public function up()
     {
-        Schema::create(config('amqp.retry.task_table'), function (Blueprint $table) {
+        Schema::create(config('amqp_retry.retry.task_table'), function (Blueprint $table) {
             $table->bigIncrements('id')->comment('主键');
             $table->string('key', 64)->unique()->comment('消息唯一key');
             $table->string('product_system', 32)->comment('消息生产的系统');

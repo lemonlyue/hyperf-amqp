@@ -34,8 +34,8 @@ class ConfigProvider
                 [
                     'id' => 'config',
                     'description' => 'The config for hyperf amqp',
-                    'source' => __DIR__ . '/../publish/amqp.php',
-                    'destination' => BASE_PATH . '/config/autoload/amqp.php',
+                    'source' => __DIR__ . '/../publish/amqp_retry.php',
+                    'destination' => BASE_PATH . '/config/autoload/amqp_retry.php',
                 ],
                 [
                     'id' => 'database',
